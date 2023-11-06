@@ -14,12 +14,18 @@ header {
     position: fixed;
     top: 0px
 }
+body{
+    background: linear-gradient(250deg, rgb(90, 197, 223),#fa10fa,rgb(90, 197, 223),#fa10fa,rgb(90, 197, 223),#fa10fa);
+    height: 100vh;
+}
+
 h2 {
     font-size: 4rem;
     background-color: rgb(16, 227, 227) ;
     color:rgb(196, 119, 144) ;
     text-align: center;
 }
+
 .frontpageimg {
     width: 100%;
 
@@ -73,3 +79,39 @@ a:hover {
 .imgbailado{
     width: 60%;
 }
+
+/* quienes somos */ 
+
+.bodyquienessomos{ 
+    color: aliceblue;
+    font-size: 1.25rem;
+}
+
+.bodyquienessomos p{
+    padding: 20px;
+    color:rgb(244, 248, 248) ;
+    background-color: transparent;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedorquienessomos img{
+    height: 50%;
+    width: 100%;
+    margin: 10px;
+}
+
+.divquienessomos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+
+/* fiestas ya bailadas */
+.fiestasyabailadasbody img{
+    height: 90%;
+    width: 100%;
+}
+
